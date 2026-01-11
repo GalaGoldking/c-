@@ -18,6 +18,7 @@ The C language provides a number of format specifiers that are associated with t
 | %lu | Unsigned int or unsigned long |
 | %lli of %lld | Long long |
 | %llu | Unsigned long long |
+| %zu | size_t |
 | %o | Octal representation |
 | %p | Pointer |
 | %s | String |
