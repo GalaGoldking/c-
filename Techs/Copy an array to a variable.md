@@ -8,10 +8,11 @@ int main() {
     int n = sizeof(original_array) / sizeof(original_array[0]);
 
     // 1. Declare the new variable (the destination array) with the same size
-    int sorted_array[n];
+    int new_array[n];
 
     // 2. Copy the elements from the original array to the new array
-    memcpy(sorted_array, original_array, sizeof(original_array));
+    // Parameters: destination array, original array, size of an array
+    memcpy(new_array, original_array, sizeof(original_array));
 
     return 0;
 }
